@@ -17,8 +17,8 @@ A python3 library that queries product prices in popular online stores.
 <h2>Installation</h2>
 <h4>Prerequisites</h4>
 <ul>
-   <li>Requires python 3+</li>
-   <li>Requires lxml -> pip3 install lxml</li>
+   <li>Requires python 3: brew install python3</li>
+   <li>Requires lxml: pip3 install lxml</li>
 </ul>
 <h4>Usage</h4>
 
