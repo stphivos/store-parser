@@ -17,7 +17,7 @@ def get_parsers():
     try:
         parsers = ParserLoader.get_all()
     except ParserLoaderError:
-        print("An error occurred while loading your parsers from the settings file.")
+        print("An error occurred while loading your parsers from the plugins directory.")
         sys.exit(2)
     return parsers
 
