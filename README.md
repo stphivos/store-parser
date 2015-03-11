@@ -21,11 +21,10 @@ A python3 library that queries product prices in popular online stores.
    <li>Requires lxml -> pip3 install lxml</li>
 </ul>
 <h4>Usage</h4>
-<p>
-```
+
+```shell
 python3 store-parser -q "marshall amp"
 ```
-</p>
 
 <h2>Adding support for other stores</h2>
 <h4>Steps</h4>
