@@ -42,6 +42,7 @@ python3 store-parser -q "marshall amp"
       </ul>
    </li>
 </ul>
+<h4>Example</h4>
    
 ```python
 from parsing import Parser, HtmlTraversal
