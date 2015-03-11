@@ -35,8 +35,8 @@ def get_options(argv):
 def execute_query(parsers, term, count=5):
     print("Searching for: '{0}'...".format(term))
 
-    query = Query(parsers)
-    results = query.execute(term, count)
+    q = Query(parsers)
+    results = q.execute(term, count)
 
     if len(results) > 0:
         print("\nQuery ended with results:")

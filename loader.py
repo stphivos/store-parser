@@ -14,6 +14,7 @@ class ParserLoader(object):
         parsers = []
 
         path = os.path.join(os.path.dirname(__file__), "plugins")
+        print(path)
         modules = pkgutil.iter_modules(path=[path])
 
         for loader, mod_name, ispkg in modules:

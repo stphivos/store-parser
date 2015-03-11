@@ -29,7 +29,7 @@ class AmazonParser(Parser):
             result = Result()
             result.title = traverse.in_element(x).get_value_of("h2", {"class": "s-access-title"})
             result.url = traverse.in_element(x).get_attr_of("a", {"class": "a-link-normal a-text-normal"}, "href")
-            result.price = traverse.in_element(x).get_value_of("span", {"class": "a-size-base a-color-price"})
+            result.price = traverse.in_element(x).get_value_of("span", {"class": "a-color-price"})
             results.append(result)
 
         return results

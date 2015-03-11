@@ -81,11 +81,15 @@ class HtmlTraversal:
         return util.strip_text(self.root.attrib[name])
 
     def get_value_of(self, tag, attrs):
-        element = self.get_elements(tag, attrs)[0]
-        value = self.in_element(element).get_value()
+        value = ""
+        elements = self.get_elements(tag, attrs)
+        if len(elements) > 0:
+            value = self.in_element(elements[0]).get_value()
         return value
 
     def get_attr_of(self, tag, attrs, name):
-        element = self.get_elements(tag, attrs)[0]
-        value = self.in_element(element).get_attr(name)
+        value = ""
+        elements = self.get_elements(tag, attrs)
+        if len(elements) > 0:
+            value = self.in_element(elements[0]).get_attr(name)
         return value
