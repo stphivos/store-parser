@@ -18,7 +18,7 @@ A python3 library that queries product prices in popular online stores.
 <h4>Prerequisites</h4>
 <ul>
    <li>Requires python 3+</li>
-   <li>Requires lxml: pip3 install lxml</li>
+   <li>Requires lxml -> pip3 install lxml</li>
 </ul>
 <h4>Usage</h4>
 <p>
@@ -42,7 +42,8 @@ python3 store-parser -q "marshall amp"
          <li>key_page is the query string key used for the result page, eg. search?keywords=tube+screamer&<b>page=2</b></li>
       </ul>
    </li>
-   <li>
+</ul>
+   
 ```python
 from parsing import Parser, HtmlTraversal
 from query import Result
