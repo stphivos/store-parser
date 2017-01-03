@@ -82,5 +82,5 @@ class MyStoreParser(Parser):
 
 <h2>Contribution</h2>
 <p>
-    Contributions for new features and support for new stores are very welcome. The only requirements are that the code conforms to PEP 8 - coding style guide for python.
+    Contributions for new features and support for new stores are very welcome. The only requirement is that the code conforms to PEP 8 - coding style guide for python.
 </p>
